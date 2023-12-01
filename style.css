@@ -599,6 +599,12 @@ body::-webkit-scrollbar{
     #details-img{
       margin-left: 15%;
     }
+    #UMAI-div, #support-div{
+      display: none;
+    }
+    #f1{
+      justify-content: center;
+    }
 }
  
 @media (max-width: 600px){
@@ -637,4 +643,14 @@ body::-webkit-scrollbar{
     }
 }
 
+@media (max-width: 500px){
+  #intro-line{
+    height: 100px;
+}
+  form > input {
+    width: 305px;
+    height: 40px;
+    font-size: 20px;
+}
+}
  
