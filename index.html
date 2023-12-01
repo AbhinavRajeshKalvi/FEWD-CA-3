@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.min.js" integrity="sha512-b94Z6431JyXY14iSXwgzeZurHHRNkLt9d6bAHt7BZT38eqV+GyngIi/tVye4jBKPYQ2lBdRs0glww4fmpuLRwA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="main" >
+        <div class="nav">
+            <div class="nav-elements">
+                <div id="home"><a href="">HOME</a></div>
+                <div id="about"><a href="">ABOUT</a></div>
+            </div>
+            <div id="logo" ><img src="./assets/Group 3.png" alt=""></div>
+            <div class="nav-elements">
+                <div id="faqs"><a href="">FAQS</a></div>
+                <div id="contacts"><a href="">CONTACTS</a></div>
+            </div>
+        </div>
+            
+        <div>
+            <div id="hamburger-icon-div"><img src="./assets/hamburger.png" alt=""></div>
+        </div>
+        <div id="hamburger-menu" class="nav-elements"> 
+            <div>HOME</div>
+            <div>ABOUT</div>
+            <div>FAQS</div>
+            <div>CONTACTS</div>
+        </div>
+        <div ><img src="./assets/Group 14.png" alt="" id="intro-line"></div>
+    </div>
+    <div class="body-div" >
+        <div id="random-title" data-aos="fade-up"
+        data-aos-anchor-placement="center-center">EXPLORE RANDOM MEALS</div>
+        <div id="random-line" data-aos="fade-up"
+        data-aos-anchor-placement="center-center">Grow your palette with a tasty random dish</div>
+        <div class="random-container" data-aos="fade-up"
+        data-aos-anchor-placement="center-center">
+            <div class="random-card" >
+                <div><img src="" alt="" id="random-pic"></div>
+                <div class="random-name"></div>
+            </div>
+        </div>
+        <div>
+            <div id="search-title" data-aos="fade-up"
+            data-aos-anchor-placement="center-center">FIND YOUR FAVOURITE MEAL'S</div>
+            <div id="search-line" data-aos="fade-up"
+            data-aos-anchor-placement="center-center">Explore our amazing range of cuisine</div>
+        </div>
+        <form action="" data-aos="fade-up"
+        data-aos-anchor-placement="center-center">
+            <input type="text" name="" id="food-input" placeholder="Search by Category">
+            <button id="search">Search</button>
+        </form>
+
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="modal-details">
+                    <!-- Details content will be displayed here -->
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <!-- <div class="card">
+                <img src="" alt="">
+                <div class="food-name"></div>
+                <button class="details-btn">Details</button>
+            </div> -->
+        </div>
+    </div>
+    <div class="footer">
+        <div class="flex">
+            <div id="XD">
+                <div><img src="./assets/Group 4.png" alt=""></div>
+                <div class="flex" id="icon-div">
+                    <div><img src="./assets/Vector.png" alt="" id="icons"></div>
+                    <div><img src="./assets/instagram.png" alt="" id="icons"></div>
+                    <div><img src="./assets/twitter.png" alt="" id="icons"></div>
+                    <div><img src="./assets/youtube.png" alt="" id="icons"></div>
+                </div>
+                
+            </div>
+
+            <div id="support-div">
+                <div>Support</div>
+                <p>Contact Us</p>
+                <p>FAQ</p>
+                <p>Feedback</p>
+                <p>Bug Report</p>
+            </div>
+            <div id="UMAI-div">
+                <div>UMAI</div>
+                <p>About UMAI</p>
+                <p>Partners</p>
+                <p>Terms of Use</p>
+            </div>
+            <div id="mail-section">
+                <div id="mail-div" class="flex">
+                    <div><img src="./assets/mail icon.png" alt=""></div>
+                    <div><h6>Stay up to date on the latest from UMAI</h6></div>
+                </div>
+                <div id="mail-submit">
+                    <div><input type="email" name="" id="email" placeholder="Enter your E-Mail Address"></div>
+                    <div id="line"></div>
+                    <div><button>Sign Up</button></div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="app.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
