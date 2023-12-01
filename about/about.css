@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400&family=Poppins:wght@400;600;900&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(180deg, #090A0C 0%, #14191F 100%);
+    background-repeat: no-repeat;
+    color: white;
+    overflow: hidden;
+}
+
+
+#about-div{
+    display: flex;
+    padding: 10%;
+    font-family: Kanit;
+}
+
+.about-content{
+    padding-right: 5%;
+}
+
+.about-content > p{
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.about-content > h2 {
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+#about-div > div > img{
+    border-radius: 50px;
+    width: 300px;
+}
+
+.nav{
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    display: flex;
+}
+
+.nav > div {
+    display: flex;
+}
+.nav-elements > div > a:hover{
+  color: rgb(255, 145, 0);
+}
+
+.nav-elements > div > a{
+  text-decoration: none;
+  color: white;
+  
+}
+
+.nav-elements > div{
+    color: #FFF;
+    font-family: Kanit;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    padding: 0 50px;
+    
+  }
+
+  @media (max-width: 1100px){
+    .nav-elements > div {
+        display: none;
+    }
+    
+  }

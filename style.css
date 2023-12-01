@@ -460,9 +460,9 @@ body::-webkit-scrollbar{
   }
 
 
-
   #hamburger-menu > div{
     padding-top: 20px;
+    font-size: 20px;
   }
 
   #hamburger-menu{
@@ -476,6 +476,7 @@ body::-webkit-scrollbar{
     margin-left: 70px;
     display: none;
     top: 25px;
+    cursor: pointer;
   }
 
 
@@ -501,6 +502,16 @@ body::-webkit-scrollbar{
       width: 200px;
       height: 190px;
     }
+  
+  .random-container{
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  #random-pic{
+    height: 450px;
+    width: 450px;
+  }
     
   }
 
@@ -625,11 +636,27 @@ body::-webkit-scrollbar{
     #detail-instruction > a{
       font-size: 30px;
     }
+  
+  .random-container{
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  #random-pic{
+    height: 350px;
+    width: 350px;
+  }
 }
  
 @media (max-width: 600px){
     #hamburger-icon-div{
         margin-left: 20px;
+    }
+    #hamburger-menu{
+      margin-left: 0px;
+    }
+    .nav-elements > div {
+      padding: 0 20px;
     }
     #intro-line{
         height: 120px;
@@ -670,6 +697,15 @@ body::-webkit-scrollbar{
     #details-img{
       margin-left: 0%;
     }
+    .random-container{
+      width: 80%;
+      margin-left: 10%;
+    }
+    
+    #random-pic{
+      height: 350px;
+      width: 350px;
+    }
 }
 
 @media (max-width: 500px){
@@ -695,5 +731,15 @@ body::-webkit-scrollbar{
   height: 150px;
   margin-left: 0%;
 }
+.random-container{
+  width: 80%;
+  margin-left: 10%;
+}
+
+#random-pic{
+  height: 250px;
+  width: 250px;
+}
+
 }
  

@@ -13,7 +13,7 @@ async function fetchFood(food = '') {
         let card = '';
         document.querySelector(".container").innerHTML = '';
         for (let i = 0; i < foodData.length; i++) {
-            card = `<div class="card">
+            card = `<div class="card" data-aos="fade-down">
                 <img src=${foodData[i].strMealThumb} alt="">
                 <div class="food-name">${foodData[i].strMeal}</div>
                 <button class="details-btn" data-id="${foodData[i].idMeal}"><img src="./expand.png" alt=""></button>
@@ -117,3 +117,18 @@ window.addEventListener('click', (event) => {
         closeModal();
     }
 });
+
+
+const hamburgerIcon = document.getElementById('hamburger-icon-div');
+const hamburgerMenu = document.getElementById('hamburger-menu');
+
+hamburgerIcon.addEventListener('click', function() {
+    // Toggle the visibility of the hamburger menu by changing its display property
+    if (hamburgerMenu.style.display === 'block') {
+        hamburgerMenu.style.display = 'none';
+    } else {
+        hamburgerMenu.style.display = 'block';
+    }
+});
+
+
