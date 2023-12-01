@@ -387,11 +387,11 @@ body::-webkit-scrollbar{
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
 
   backdrop-filter: blur(15px);
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 15% auto; 
     padding: 20px;
     border: 1px solid #888;
     width: 50%; 
-    height: 80%;/* Could be more or less, depending on screen size */
+    height: 80%;
   }
   
   /* The Close Button */
@@ -490,6 +490,9 @@ body::-webkit-scrollbar{
     #mail-section{
       display: none;
     }
+    .modal{
+      top: -15%
+    }
   }
 
 
@@ -533,6 +536,17 @@ body::-webkit-scrollbar{
       width: 805px;
       height: 50px;
     }
+
+    .modal{
+      top: 0%
+    }
+
+    .modal-content {
+      width: 50%; 
+      height: 56%;
+      }
+
+
   }
 
   @media (max-width: 900px){
@@ -605,6 +619,12 @@ body::-webkit-scrollbar{
     #f1{
       justify-content: center;
     }
+    #detail-ingredients{
+      font-size: 18px;
+    }
+    #detail-instruction > a{
+      font-size: 30px;
+    }
 }
  
 @media (max-width: 600px){
@@ -641,6 +661,15 @@ body::-webkit-scrollbar{
       width: 269px;
       height: 259px;
     }
+    #detail-ingredients{
+      font-size: 15px;
+    }
+    #detail-instruction > a{
+      font-size: 25px;
+    }
+    #details-img{
+      margin-left: 0%;
+    }
 }
 
 @media (max-width: 500px){
@@ -651,6 +680,20 @@ body::-webkit-scrollbar{
     width: 305px;
     height: 40px;
     font-size: 20px;
+}
+#detail-ingredients{
+  font-size: 13px;
+}
+#detail-instruction{
+  margin-top: 50px;
+}
+#detail-instruction > a{
+  font-size: 20px;
+}
+#details-img{
+  width: 150px;
+  height: 150px;
+  margin-left: 0%;
 }
 }
  
