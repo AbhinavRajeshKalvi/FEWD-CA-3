@@ -72,5 +72,27 @@ body{
     .nav-elements > div {
         display: none;
     }
+    #hamburger-icon-div{
+      display: block;
+  }
     
+  }
+
+  #hamburger-menu > div{
+    padding-top: 20px;
+    font-size: 20px;
+  }
+
+  #hamburger-menu{
+    position: absolute;
+    margin-left:20px;
+    display: none;
+  }
+
+  #hamburger-icon-div{
+    position: absolute;
+    margin-left: 70px;
+    display: none;
+    top: 25px;
+    cursor: pointer;
   }
